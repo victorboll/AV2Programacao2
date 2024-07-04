@@ -18,14 +18,15 @@ public class Aluno {
 	private Long id;
 	@Column(nullable = false)
 	private String nome;
-	private String email;
+	@Column(nullable = false, unique = true)
 	private String cpf;
+	private String email;
+	private String naturalidade;
+	private String endereco;
 	@Temporal(TemporalType.DATE)
 	@Column(name = "data_nascimento")
 	private Calendar dataNascimento;
-	private String naturalidade;
-	private String endereco;
-	
+
 	public Long getId() {
 		return id;
 	}
