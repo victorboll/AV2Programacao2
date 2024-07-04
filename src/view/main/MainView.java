@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 import view.aluno.InserirAlunoView;
+import view.aluno.RemoverAlunoView;
 import view.aluno.VisualizarAlunoView;
 
 public class MainView {
@@ -33,7 +34,7 @@ public class MainView {
                     //AlterarContatoView.menu(scanner);
                     break;
                 case "4":
-                    //RemoverContatoView.menu(scanner);
+                    RemoverAlunoView.menu(scanner);
                     break;
                 case "x":
                     System.out.println("Encerrando o programa...");
