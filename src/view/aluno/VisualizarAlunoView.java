@@ -11,9 +11,9 @@ public class VisualizarAlunoView {
 		String opcao;
 		do {
             System.out.println("Escolha uma opcao:");
-            System.out.println("1. Visualizar contato por id");
-            System.out.println("2. Visualizar contatos pela letra inicial do nome");
-            System.out.println("3. Visualizar todos os contatos");
+            System.out.println("1. Visualizar aluno por id");
+            System.out.println("2. Visualizar lista de alunos pela letra inicial do nome");
+            System.out.println("3. Visualizar lista com todos os alunos");
             System.out.println("4. Voltar ao menu anterior");
             opcao = scanner.nextLine();
 
@@ -65,7 +65,7 @@ public class VisualizarAlunoView {
 	}
 	
 	private static void getAllByFirstLetter(Scanner scanner){  	  
-		System.out.print("Por favor, digite a letra inicial dos contatos a serem listados: ");
+		System.out.print("Por favor, digite a letra inicial dos alunos que serão listados: ");
 		String letra = scanner.nextLine();
 	
 		if (letra.length() != 1) {

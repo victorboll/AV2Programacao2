@@ -1,8 +1,8 @@
 package view.main;
 
-import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
+import view.aluno.AtualizarAlunoView;
 import view.aluno.InserirAlunoView;
 import view.aluno.RemoverAlunoView;
 import view.aluno.VisualizarAlunoView;
@@ -31,7 +31,7 @@ public class MainView {
                     VisualizarAlunoView.menu(scanner);
                     break;
                 case "3":
-                    //AlterarContatoView.menu(scanner);
+                    AtualizarAlunoView.menu(scanner);
                     break;
                 case "4":
                     RemoverAlunoView.menu(scanner);

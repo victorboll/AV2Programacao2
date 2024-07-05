@@ -9,7 +9,7 @@ public class RemoverAlunoView {
 		String opcao;
 		do {
             System.out.println("Escolha uma opcao:");
-            System.out.println("1. Remover um contato da lista de contatos");
+            System.out.println("1. Remover um aluno do banco de dados");
             System.out.println("2. Voltar ao menu anterior");
             
             opcao = scanner.nextLine();
@@ -24,7 +24,7 @@ public class RemoverAlunoView {
     	} 
 	
 	private static void remover(Scanner scanner) {  	  
-	    System.out.print("Por favor, digite o id do contato a ser removido: ");	    
+	    System.out.print("Por favor, digite o id do aluno a ser removido: ");	    
 	    RemoverAlunoPorId.deleteById(Long.parseLong(scanner.nextLine()));
 	}
 
