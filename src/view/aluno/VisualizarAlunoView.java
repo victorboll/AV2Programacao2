@@ -43,7 +43,7 @@ public class VisualizarAlunoView {
             System.out.println("Nome do aluno: " + aluno.getNome());
             System.out.println("E-mail do aluno: " + aluno.getEmail());
             System.out.println("CPF do aluno: " + aluno.getCpf());
-            System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimento());
+            System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimentoFormatada());
             System.out.println("Naturalidade do aluno: " + aluno.getNaturalidade());
             System.out.println("Endereço do aluno: " + aluno.getEndereco());
             System.out.println("++++++++++++++++++++++++++++++++++++++");
@@ -58,7 +58,7 @@ public class VisualizarAlunoView {
         System.out.println("Nome do aluno: " + aluno.getNome());
         System.out.println("E-mail do aluno: " + aluno.getEmail());
         System.out.println("CPF do aluno: " + aluno.getCpf());
-        System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimento());
+        System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimentoFormatada());
         System.out.println("Naturalidade do aluno: " + aluno.getNaturalidade());
         System.out.println("Endereço do aluno: " + aluno.getEndereco());
         System.out.println("++++++++++++++++++++++++++++++++++++++");
@@ -80,7 +80,7 @@ public class VisualizarAlunoView {
             System.out.println("Nome do aluno: " + aluno.getNome());
             System.out.println("E-mail do aluno: " + aluno.getEmail());
             System.out.println("CPF do aluno: " + aluno.getCpf());
-            System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimento());
+            System.out.println("Data de nascimento do aluno: " + aluno.getDataNascimentoFormatada());
             System.out.println("Naturalidade do aluno: " + aluno.getNaturalidade());
             System.out.println("Endereço do aluno: " + aluno.getEndereco());
             System.out.println("++++++++++++++++++++++++++++++++++++++");

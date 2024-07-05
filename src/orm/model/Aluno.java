@@ -1,5 +1,6 @@
 package orm.model;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import javax.persistence.Column;
@@ -54,6 +55,15 @@ public class Aluno {
 	public Calendar getDataNascimento() {
 		return dataNascimento;
 	}
+	
+	public String getDataNascimentoFormatada() {
+        if (dataNascimento != null) {
+            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+            return sdf.format(dataNascimento.getTime());
+        }
+        return null;
+    }
+	
 	public void setDataNascimento(Calendar dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
